@@ -7,6 +7,7 @@ class GildedRose
   def normal_item?(item)
     item.name != "Aged Brie" &&
     item.name != "Backstage passes to a TAFKAL80ETC concert" &&
+    item.name != "Sulfuras, Hand of Ragnaros" &&
     item.quality > 0 && item.sell_in > 0
   end
 
